@@ -58,12 +58,15 @@ class MainActivity : AppCompatActivity() {
 
 //            코틀린에서는 모든 변수 참조형
 //            myBirthYear.compareTo() =>
-
+        }
 
             binding.btnCondition.setOnClickListener {
 
-                //사용자의 나이를 val에 저장
-                val userAge=25
+                //사용자의 나이를 val에 저장 => EditText를 이용해 입력받기
+
+                //EditText는 .toString()으로 String입력값을 받아오는 역할
+                //Int로 변환=> Castinf 필요
+                val userAge=binding.edtUserAge.text.toString().toInt()
 
                 //20살 이상? 성인문구 토스트
 
@@ -90,6 +93,6 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-        }
+
     }
 }

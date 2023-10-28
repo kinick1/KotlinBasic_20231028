@@ -27,11 +27,19 @@
             android:id="@+id/btnVariable"
             android:text="코틀린 변수 체험"/>
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtUserAge"
+            android:hint="사용자의 나이를 입력하세요"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnCondition"
             android:text="코틀린 조건문 체험용"/>
+
+
 
     </LinearLayout>
 </layout>
