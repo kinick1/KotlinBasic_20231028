@@ -5,7 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:padding="15dp"
         tools:context=".MainActivity">
 
@@ -20,6 +20,18 @@
             android:layout_height="wrap_content"
             android:id="@+id/btnToast"
             android:text="토스트 띄우기"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnVariable"
+            android:text="코틀린 변수 체험"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCondition"
+            android:text="코틀린 조건문 체험용"/>
 
     </LinearLayout>
 </layout>
