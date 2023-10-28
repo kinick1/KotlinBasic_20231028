@@ -39,7 +39,18 @@
             android:id="@+id/btnCondition"
             android:text="코틀린 조건문 체험용"/>
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtUserName"
+            android:hint="사용자의 이름을 입력하세요"/>
 
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnName"
+            android:text="이름"/>
 
     </LinearLayout>
 </layout>
