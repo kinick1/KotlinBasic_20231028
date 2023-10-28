@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 //            myBirthYear.compareTo() =>
         }
 
-            binding.btnCondition.setOnClickListener {
+        binding.btnCondition.setOnClickListener {
 
                 //사용자의 나이를 val에 저장 => EditText를 이용해 입력받기
 
@@ -93,6 +93,13 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
+
+        binding.btnName.setOnClickListener {
+
+            var userName=binding.edtUserName.text.toString()
+
+            Toast.makeText(this, "${userName}님 환영합니다.", Toast.LENGTH_SHORT).show()
+        }
 
     }
 }
